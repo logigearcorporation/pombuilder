@@ -1,5 +1,5 @@
 # POM Builder
-POM Builder helps you instantly auto-generate the most robust locator including Xpath, CSS selector and more for use with Selenium or Protractor. Get the Chrome extension [here][extensionURL]. [extensionURL]:https://chrome.google.com/webstore/detail/pombuilder-%E2%80%93-auto-generat/akcejfbfkkjnghlfngighgncolfaghco
+POM Builder helps you instantly auto-generate the most robust locator including Xpath, CSS selector and more for use with Selenium or Protractor. Get the Chrome extension [here][https://chrome.google.com/webstore/detail/pombuilder-%E2%80%93-auto-generat/akcejfbfkkjnghlfngighgncolfaghco].
 
 Save time by letting POM Builder instantly suggest the most reliable locator for your inspected web element. The suggestion might be either XPath, CSS selector, By.id, By.name, By.linkText, etc. You can use these locators with Selenium,  Protractor or TestArchitect.
 
