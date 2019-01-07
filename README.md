@@ -1,21 +1,50 @@
 # POM Builder
-POM Builder helps you instantly auto-generate the most robust locator including Xpath, CSS selector and more for use with Selenium or Protractor. Get the Chrome extension [here](https://chrome.google.com/webstore/detail/pombuilder-%E2%80%93-auto-generat/akcejfbfkkjnghlfngighgncolfaghco).
 
-Save time by letting POM Builder instantly suggest the most reliable locator for your inspected web element. The suggestion might be either XPath, CSS selector, By.id, By.name, By.linkText, etc. You can use these locators with Selenium,  Protractor or TestArchitect.
+<a href="https://imgur.com/Xc8l7OK"><img src="https://i.imgur.com/Xc8l7OK.png" title="source: imgur.com" style="width:100%;"/></a>
 
-## Quickly copy the smartest locator
-Right click on your element of interest, then select Quick Copy > Suggested Locator to copy the smartest locator to clipboard. Quick Copy leverages Artificial Intelligence to contextually guess the most reliable and readable locator for you.
-![Quick Copy](https://media.giphy.com/media/MTs2byIkPjnabjm6dK/giphy.gif)
+## What is it?
+POM Builder is a Chrome extension that helps you quickly generate the most robust locator for your web elements. The suggested output might be either XPath, CSS selector, Id, Name, linkText, etc. You can use these locators with [Selenium](https://www.seleniumhq.org/), [Protractor](https://www.protractortest.org) or [TestArchitect](https://www.testarchitect.com/).
 
-## Flaky locators result in unstable tests
-If your locators are too sensitive to changes, your tests will fail even due to minor front end GUI changes. Constructing reliable and unique locators manually is tedious and error-prone. Smart Gen eliminates this hassle by auto-suggesting the smartest locators as well as excluding out bad ones for your reference.
-![Smart Gen](https://media.giphy.com/media/MV1oM02XMXj7Lq3rxf/giphy.gif)
 
-## Customize your locator and test it
-Our suggested locator may perform well most of the time but in some cases, you might want to add your own touch. That’s when Locator Test comes in handy. It helps you quickly evaluate the customized locator to make sure it can uniquely identify your web element.
-![Locator Test](https://media.giphy.com/media/3ICJep3sPEEUpHXBr2/giphy.gif)
+Get the Chrome extension [here](https://chrome.google.com/webstore/detail/pombuilder-%E2%80%93-auto-generat/akcejfbfkkjnghlfngighgncolfaghco).
+
+
+## Who is it for?
+All developers and testers who aspire to automate their web apps using popular automation frameworks like Selenium, Protractor and TestArchitect.
+
+## Why use it?
+### Smart Gen
+ **Smart Gen** leverages Pattern Recognition (AI) to contextually guess the best locator for you. The best locator should be:
+ 1. Short
+ 2. Insensitive to GUI changes 
+ 3. Easy to understand
+
+How to use? 
+1. Right click on a web element, then select `POM Builder - Quick Copy` > `Suggested Locator` to copy the recommended locator to clipboard.
+
+<img src="https://media.giphy.com/media/MTs2byIkPjnabjm6dK/giphy.gif" alt="Quick Copy" style="width:300px;"/>
+
+2. Press `F12` or right click > `Inspect` to open Chrome DevTools then click on the `POM Builder` tab (usually the last sub-tab of the `Elements` tab). Whenever, you inspect an element, the POM Builder tab will refresh to show the new recommended locator for that element.
+
+### Locator Test
+You can evaluate the recommended locator or your customized locator to check whether that locator uniquely identifies the web element of interest. 
+
+How to use? Open the `POM Builder` tab (see above) > paste the locator in question to the textbox below LOCATOR TEST > click the magnifying glass button. If it shows 1/1, you're good. Otherwise, refine the locator.
+
+<img src="https://media.giphy.com/media/e7PjUrVJxC8wnntpMV/giphy.gif" alt="Quick Copy" style="width:300px;"/>
+
+### POM Code Gen
+After designing the best locator for your web element, POM Builder can further help you to generate the corresponding POM code snippet. This code snippet can be pasted directly into your Selenium, Protractor or TestArchitect project. 
+
+How to use? 
+* Open the `POM Builder` tab (see above) > look for the **Output** dropdown list > select your desired output (raw value/Selenium Java/Protractor/TestArchitect). 
+* If you want to add your own output template, click the **Gear** button > **Add New** button > name the new template > format it however you like > click **Apply**
+
+## Notes
+* After installation, please restart Chrome. We've received feedback that the extension wouldn't work if you don't restart Chrome.
+* POM Builder does NOT track your browsing history in any way, nor does it transmit any data over the internet. All data remains on your local hard disk drive at all times. However, POM Builder needs "webNavigation" and "tabs" permissions in order to generate locators for elements inside iFrames. 
 
 ## Contacts
-pombuilder@logigear.com
-1730 S Amphlett Blvd Suite 110,
-San Mateo, CA 94402, US
+* LogiGear Corp.
+* Email: pombuilder@logigear.com
+* Address: 1730 S Amphlett Blvd Suite 110, San Mateo, CA 94402, US
