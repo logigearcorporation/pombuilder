@@ -44,6 +44,10 @@ How to use?
 * After installation, please restart Chrome. We've received feedback that the extension wouldn't work if you don't restart Chrome.
 * POM Builder does NOT track your browsing history in any way, nor does it transmit any data over the internet. All data remains on your local hard disk drive at all times. However, POM Builder needs "webNavigation" and "tabs" permissions in order to generate locators for elements inside iFrames. 
 
+## Useful Resources
+* User guide: https://github.com/logigearcorporation/pombuilder/wiki/User-Guide
+* Release notes: https://github.com/logigearcorporation/pombuilder/wiki/Release-Notes
+
 ## Contacts
 * LogiGear Corp.
 * Email: pombuilder@logigear.com
