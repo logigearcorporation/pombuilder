@@ -3,7 +3,7 @@
 <a href="https://imgur.com/Xc8l7OK"><img src="https://i.imgur.com/Xc8l7OK.png" title="source: imgur.com" style="width:100%;"/></a>
 
 ## What is it?
-POM Builder is a Chrome extension that helps you quickly generate the most robust locator for your web elements. The suggested output might be either XPath, CSS selector, Id, Name, linkText, etc. You can use these locators with [Selenium](https://www.seleniumhq.org/), [Protractor](https://www.protractortest.org) or [TestArchitect](https://www.testarchitect.com/).
+[POM Builder](https://www.pombuilder.com) is a Chrome extension that helps you quickly generate the most robust locator for your web elements. The suggested output might be either XPath, CSS selector, Id, Name, linkText, etc. You can use these locators with [Selenium](https://www.seleniumhq.org/), [Protractor](https://www.protractortest.org), [TestArchitect](https://www.testarchitect.com/) or any other test frameworks and tools.
 
 
 Get the Chrome extension [here](https://chrome.google.com/webstore/detail/pombuilder-%E2%80%93-auto-generat/akcejfbfkkjnghlfngighgncolfaghco).
